@@ -79,7 +79,9 @@ section {
 /* header */
 
 
-
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .logo-accent-up {
     color: #2E2F42;
@@ -185,12 +187,10 @@ section {
 .hero {
     background: var(--NAVY-BLUE, #2E2F42);
     margin-top: 0;
+    padding: 188px 0;
 }
 
-.hero-conteiner {
-    padding-top: 188px;
-    padding-bottom: 188px;
-}
+
 
 .hero-title {
     max-width: 496px;
@@ -206,12 +206,15 @@ section {
 }
 
 .btn {
+    min-width: 169px;
+    height: 56px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 48px;
     padding: 16px 32px;
     border-radius: 4px;
+    border: none;
     background: var(--IRIS, #4D5AE5);
     color: #FFF;
     font-size: 16px;
@@ -269,7 +272,10 @@ section {
 
 }
 
-.team-list {
+.team-list {}
+
+.team-wrapper {
+    padding: 32px 0;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -279,7 +285,7 @@ section {
     width: calc((100% - 24px * 3) / 4);
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
-    padding-bottom: 32px;
+
 }
 
 .team-img {
@@ -297,8 +303,6 @@ section {
     margin-bottom: 8px;
 }
 
-
-
 .team-p {
     color: var(--SLATE, #434455);
     text-align: center;
@@ -307,6 +311,7 @@ section {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /* Section 4 Portfolio */
