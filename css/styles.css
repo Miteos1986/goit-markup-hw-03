@@ -328,7 +328,7 @@ section {
 }
 
 .portfolio-item {
-    border: 1px solid #e7e9fc;
+
     width: calc((100% - 24px * 2) / 3);
     border-top: none;
 }
@@ -340,6 +340,7 @@ section {
 
 .portfolio-wrapper {
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 
 }
 
