@@ -103,11 +103,13 @@ section {
 
 .header-nav {
     display: flex;
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border-bottom: 1px solid #e7e9fc;
     margin-right: auto;
+    align-items: center;
 }
 
 .logo {
+    margin-right: 76px;
     display: inline-flex;
     align-items: center;
     color: #4D5AE5;
@@ -122,7 +124,7 @@ section {
 
 .header-list {
     display: flex;
-    margin-left: 76px;
+
 }
 
 .header-item {
