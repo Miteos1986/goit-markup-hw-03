@@ -79,9 +79,7 @@ section {
 /* header */
 
 
-.header {
-    border-bottom: 1px solid #e7e9fc;
-}
+
 
 .logo-accent-up {
     color: #2E2F42;
@@ -100,11 +98,11 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
     display: flex;
-
     margin-right: auto;
     align-items: center;
 }
